@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    {
+      "eslint": "7.32.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-config-airbnb-typescript-prettier": "^4.2.0",
+      "eslint-config-prettier": "8.1.0",
+      "eslint-config-standard-react": "^11.0.1",
+      "eslint-formatter-gitlab": "^2.0.0",
+      "eslint-formatter-summary": "^1.0.4",
+      "eslint-import-resolver-lerna": "^2.0.0",
+      "eslint-import-resolver-typescript": "^2.4.0",
+      "eslint-plugin-babel": "^5.3.0",
+      "eslint-plugin-cypress": "^2.10.3",
+      "eslint-plugin-eslint-comments": "^3.2.0",
+      "eslint-plugin-import": "2.25.2",
+      "eslint-plugin-jest": "*",
+      "eslint-plugin-jsx-a11y": "6.4.1",
+      "eslint-plugin-mdx": "^1.12.0",
+      "eslint-plugin-node": "^11.0.0",
+      "eslint-plugin-prettier": "3.1.2",
+      "eslint-plugin-promise": "^5.1.0",
+      "eslint-plugin-react": "7.26.1",
+      "eslint-plugin-react-hooks": "4.2.0",
+      "eslint-plugin-react-perf": "^3.3.0",
+      "eslint-plugin-security": "^1.4.0",
+      "eslint-plugin-sonarjs": "^0.6.0"
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {}
+}
